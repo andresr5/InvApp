@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <section>
+        <form novalidate [FormGroup]="movimientoForm" (ngSubmit)="onSubmit()">
+          <fielset>
+            <div class="form-group">
+            </div>
+            <div class="form-group">
+              <label>Cantidad</label>
+              <input type="text" class="form-control" formControlName="producto">
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
